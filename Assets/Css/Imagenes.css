@@ -1,0 +1,54 @@
+.ImgPrincipal {
+  height: 100vh;
+}
+
+.ImgAside {
+  width: 70px;
+  height: 70px;
+}
+
+.ImgAside1 {
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.ImgAside2 {
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.ImgAside3 {
+  -webkit-animation-name: Movi;
+          animation-name: Movi;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.RopaDeTemporadaFotos {
+  height: 350px;
+  width: 45%;
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.ImgColeccion {
+  width: 250px;
+  height: 250px;
+}
+
+.Copy {
+  width: 140px;
+  height: 140px;
+}
+
+.ImgUbi {
+  margin-top: 70px;
+  width: 40%;
+  padding-bottom: 20px;
+}
+/*# sourceMappingURL=Imagenes.css.map */

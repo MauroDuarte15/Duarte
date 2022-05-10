@@ -1,0 +1,35 @@
+@import "Variables";
+.Btn {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #ff6392;
+    box-shadow: 0 5px #ff0a78;
+    margin-top: 10px;
+}
+
+.Btn--rose:hover {
+    box-shadow: 0 3px #ff0a78;
+    top: 1px;
+}
+
+.Btn--rose:active {
+    box-shadow: 0 0 #ff0a78;
+    top: 5px;
+}
+.BtnBuscar {
+    width: 40px;
+    height: 40px;
+}
+.bi-search-heart-fill{
+    color: $colorTitulos;
+}
