@@ -20,6 +20,10 @@
     height: $alto;
     
 }
+body{
+    overflow-x: hidden;
+ }
+ 
 .btn-wsp{
     position:fixed;
     width:60px;
