@@ -22,8 +22,8 @@
 }
 body{
     overflow-x: hidden;
- }
- 
+}
+
 .btn-wsp{
     position:fixed;
     width:60px;
@@ -390,9 +390,6 @@ body{
 
 @media (max-width:480px) {
 
-    .form-control2 {
-        display: none;
-    }
     .TextoMarca {
         font-size: 30px;
         color: #eb009c;
@@ -430,12 +427,7 @@ body{
         position: relative;
         top: 15px;
         right: 15px;
-      }
-
-    .form-horizontal {
-        display: none;
     }
-
     .MainContacto {
         display: flex;
         display: inline-flex;
