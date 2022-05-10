@@ -1,10 +1,8 @@
 * {
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  list-style: none;
-}
+  box-sizing: border-box;
+  list-style: none; }
 
 .Btn {
   min-width: 130px;
@@ -13,7 +11,6 @@
   padding: 5px 10px;
   font-weight: bold;
   cursor: pointer;
-  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   position: relative;
   display: inline-block;
@@ -21,85 +18,65 @@
   border-radius: 5px;
   border: none;
   background: #ff6392;
-  -webkit-box-shadow: 0 5px #ff0a78;
-          box-shadow: 0 5px #ff0a78;
-  margin-top: 10px;
-}
+  box-shadow: 0 5px #ff0a78;
+  margin-top: 10px; }
 
 .Btn--rose:hover {
-  -webkit-box-shadow: 0 3px #ff0a78;
-          box-shadow: 0 3px #ff0a78;
-  top: 1px;
-}
+  box-shadow: 0 3px #ff0a78;
+  top: 1px; }
 
 .Btn--rose:active {
-  -webkit-box-shadow: 0 0 #ff0a78;
-          box-shadow: 0 0 #ff0a78;
-  top: 5px;
-}
+  box-shadow: 0 0 #ff0a78;
+  top: 5px; }
 
 .BtnBuscar {
   width: 40px;
-  height: 40px;
-}
+  height: 40px; }
 
 .bi-search-heart-fill {
-  color: #eb009c;
-}
+  color: #eb009c; }
 
 .ImgPrincipal {
-  height: 100vh;
-}
+  height: 100vh; }
 
 .ImgAside {
   width: 70px;
-  height: 70px;
-}
+  height: 70px; }
 
 .ImgAside1 {
   padding-left: 50px;
-  padding-top: 50px;
-}
+  padding-top: 50px; }
 
 .ImgAside2 {
   padding-left: 50px;
-  padding-top: 50px;
-}
+  padding-top: 50px; }
 
 .ImgAside3 {
-  -webkit-animation-name: Movi;
-          animation-name: Movi;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation-name: Movi;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
   padding-left: 50px;
-  padding-top: 50px;
-}
+  padding-top: 50px; }
 
 .RopaDeTemporadaFotos {
   height: 350px;
   width: 45%;
   padding-left: 40px;
   padding-top: 20px;
-  padding-bottom: 20px;
-}
+  padding-bottom: 20px; }
 
 .ImgColeccion {
   width: 250px;
-  height: 250px;
-}
+  height: 250px; }
 
 .Copy {
   width: 140px;
-  height: 140px;
-}
+  height: 140px; }
 
 .ImgUbi {
   margin-top: 70px;
   width: 40%;
-  padding-bottom: 20px;
-}
+  padding-bottom: 20px; }
 
 .TextUbiMenu {
   text-shadow: none;
@@ -107,25 +84,16 @@
   font-size: 20px;
   color: #000000;
   font-weight: bold;
-  text-align: end;
-}
+  text-align: end; }
 
 .MenuItem {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   list-style: none;
   font-size: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
+  flex-direction: row;
+  align-items: center; }
 
 .TextoMarca {
   font-size: 45px;
@@ -136,15 +104,12 @@
   text-align: center;
   padding: 10px 0;
   position: relative;
-  right: 60px;
-}
+  right: 60px; }
 
 .TituloTemporada {
   color: #ffffff;
   background-color: #000000;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 56 28' width='56' height='28'%3E%3Cpath fill='%23f200fc' fill-opacity='0.82' d='M56 26v2h-7.75c2.3-1.27 4.94-2 7.75-2zm-26 2a2 2 0 1 0-4 0h-4.09A25.98 25.98 0 0 0 0 16v-2c.67 0 1.34.02 2 .07V14a2 2 0 0 0-2-2v-2a4 4 0 0 1 3.98 3.6 28.09 28.09 0 0 1 2.8-3.86A8 8 0 0 0 0 6V4a9.99 9.99 0 0 1 8.17 4.23c.94-.95 1.96-1.83 3.03-2.63A13.98 13.98 0 0 0 0 0h7.75c2 1.1 3.73 2.63 5.1 4.45 1.12-.72 2.3-1.37 3.53-1.93A20.1 20.1 0 0 0 14.28 0h2.7c.45.56.88 1.14 1.29 1.74 1.3-.48 2.63-.87 4-1.15-.11-.2-.23-.4-.36-.59H26v.07a28.4 28.4 0 0 1 4 0V0h4.09l-.37.59c1.38.28 2.72.67 4.01 1.15.4-.6.84-1.18 1.3-1.74h2.69a20.1 20.1 0 0 0-2.1 2.52c1.23.56 2.41 1.2 3.54 1.93A16.08 16.08 0 0 1 48.25 0H56c-4.58 0-8.65 2.2-11.2 5.6 1.07.8 2.09 1.68 3.03 2.63A9.99 9.99 0 0 1 56 4v2a8 8 0 0 0-6.77 3.74c1.03 1.2 1.97 2.5 2.79 3.86A4 4 0 0 1 56 10v2a2 2 0 0 0-2 2.07 28.4 28.4 0 0 1 2-.07v2c-9.2 0-17.3 4.78-21.91 12H30zM7.75 28H0v-2c2.81 0 5.46.73 7.75 2zM56 20v2c-5.6 0-10.65 2.3-14.28 6h-2.7c4.04-4.89 10.15-8 16.98-8zm-39.03 8h-2.69C10.65 24.3 5.6 22 0 22v-2c6.83 0 12.94 3.11 16.97 8zm15.01-.4a28.09 28.09 0 0 1 2.8-3.86 8 8 0 0 0-13.55 0c1.03 1.2 1.97 2.5 2.79 3.86a4 4 0 0 1 7.96 0zm14.29-11.86c1.3-.48 2.63-.87 4-1.15a25.99 25.99 0 0 0-44.55 0c1.38.28 2.72.67 4.01 1.15a21.98 21.98 0 0 1 36.54 0zm-5.43 2.71c1.13-.72 2.3-1.37 3.54-1.93a19.98 19.98 0 0 0-32.76 0c1.23.56 2.41 1.2 3.54 1.93a15.98 15.98 0 0 1 25.68 0zm-4.67 3.78c.94-.95 1.96-1.83 3.03-2.63a13.98 13.98 0 0 0-22.4 0c1.07.8 2.09 1.68 3.03 2.63a9.99 9.99 0 0 1 16.34 0z'%3E%3C/path%3E%3C/svg%3E");
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   position: relative;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -153,12 +118,10 @@
   font-weight: bold;
   margin-left: 40px;
   padding-left: 5px;
-  border: 3px outset #000000;
-}
+  border: 3px outset #000000; }
 
 .Derechos {
-  font-size: 28px;
-}
+  font-size: 28px; }
 
 .TextoContacto {
   font-size: 45px;
@@ -170,14 +133,12 @@
   padding: 10px 0;
   position: relative;
   right: 80px;
-  text-decoration: underline;
-}
+  text-decoration: underline; }
 
 .Contacto1 {
   margin-top: 25px;
   font-size: 25px;
-  font-style: italic;
-}
+  font-style: italic; }
 
 .TituloSobreMi {
   font-size: 45px;
@@ -188,25 +149,21 @@
   text-align: center;
   padding: 10px 0;
   position: relative;
-  right: 80px;
-}
+  right: 80px; }
 
 .P-Empresa, .Embajadora {
   font-size: 20px;
   font-weight: bold;
   font-style: oblique;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 .Embajadora {
   color: #eb009c;
   position: relative;
-  left: 40px;
-}
+  left: 40px; }
 
 body {
-  overflow-x: hidden;
-}
+  overflow-x: hidden; }
 
 .btn-wsp {
   position: fixed;
@@ -220,127 +177,90 @@ body {
   border-radius: 50px;
   text-align: center;
   font-size: 35px;
-  -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
-          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
   z-index: 100;
-  -webkit-transition: all 300ms ease;
-  transition: all 300ms ease;
-}
+  transition: all 300ms ease; }
 
 .btn-wsp:hover {
-  background: #20ba5a;
-}
+  background: #20ba5a; }
 
 .container {
   background-color: white;
-  margin-bottom: 20px;
-}
+  margin-bottom: 20px; }
 
 .FormFotos {
-  padding-right: 3px;
-}
+  padding-right: 3px; }
 
 .Precio {
   padding-left: 10px;
   font-size: 20px;
-  text-shadow: 0 0 2px red;
-}
+  text-shadow: 0 0 2px red; }
 
 .carousel {
-  padding-left: 30px;
-}
+  padding-left: 30px; }
 
 .carousel-control-next {
-  right: 45px;
-}
+  right: 45px; }
 
 .nav-link {
   text-shadow: none;
   text-decoration: none;
   font-size: 20px;
   color: #000000;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 .nav-link:hover {
   color: #000000;
   background-color: #eb009c;
   border-radius: 5px;
-  -webkit-transition: .5s;
-  transition: .5s;
-}
+  transition: .5s; }
 
 .LinkUbiMenu {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
+  display: flex; }
 
 .LinkMenu {
   text-decoration: none;
   color: #000000;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-}
+  box-shadow: none; }
 
 .LinkMenu:hover {
   color: #000000;
   background-color: #eb009c;
   border-radius: 5px;
-  -webkit-transition: .5s;
   transition: .5s;
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-}
+  transform: scale(1.2); }
 
 .dropdown-toggle:hover {
   color: #000000;
   background-color: #eb009c;
   border-radius: 5px;
-  -webkit-transition: .5s;
   transition: .5s;
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-}
+  transform: scale(1.2); }
 
 .FaviMenu {
   height: 40px;
-  width: 40px;
-}
+  width: 40px; }
 
 .MenuResponsive {
-  display: none;
-}
+  display: none; }
 
 .MenuList {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
+  justify-content: space-evenly; }
 
 .TituloTemporada__Cuadro {
   margin-top: 30px;
-  width: 320px;
-}
+  width: 320px; }
 
 .HeaderIndex {
   background-color: #888470;
   background-image: url("data:image/svg+xml,%3Csvg width='180' height='180' viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M81.28 88H68.413l19.298 19.298L81.28 88zm2.107 0h13.226L90 107.838 83.387 88zm15.334 0h12.866l-19.298 19.298L98.72 88zm-32.927-2.207L73.586 78h32.827l.5.5 7.294 7.293L115.414 87l-24.707 24.707-.707.707L64.586 87l1.207-1.207zm2.62.207L74 80.414 79.586 86H68.414zm16 0L90 80.414 95.586 86H84.414zm16 0L106 80.414 111.586 86h-11.172zm-8-6h11.173L98 85.586 92.414 80zM82 85.586L87.586 80H76.414L82 85.586zM17.414 0L.707 16.707 0 17.414V0h17.414zM4.28 0L0 12.838V0h4.28zm10.306 0L2.288 12.298 6.388 0h8.198zM180 17.414L162.586 0H180v17.414zM165.414 0l12.298 12.298L173.612 0h-8.198zM180 12.838L175.72 0H180v12.838zM0 163h16.413l.5.5 7.294 7.293L25.414 172l-8 8H0v-17zm0 10h6.613l-2.334 7H0v-7zm14.586 7l7-7H8.72l-2.333 7h8.2zM0 165.414L5.586 171H0v-5.586zM10.414 171L16 165.414 21.586 171H10.414zm-8-6h11.172L8 170.586 2.414 165zM180 163h-16.413l-7.794 7.793-1.207 1.207 8 8H180v-17zm-14.586 17l-7-7h12.865l2.333 7h-8.2zM180 173h-6.613l2.334 7H180v-7zm-21.586-2l5.586-5.586 5.586 5.586h-11.172zM180 165.414L174.414 171H180v-5.586zm-8 5.172l5.586-5.586h-11.172l5.586 5.586zM152.933 25.653l1.414 1.414-33.94 33.942-1.416-1.416 33.943-33.94zm1.414 127.28l-1.414 1.414-33.942-33.94 1.416-1.416 33.94 33.943zm-127.28 1.414l-1.414-1.414 33.94-33.942 1.416 1.416-33.943 33.94zm-1.414-127.28l1.414-1.414 33.942 33.94-1.416 1.416-33.94-33.943zM0 85c2.21 0 4 1.79 4 4s-1.79 4-4 4v-8zm180 0c-2.21 0-4 1.79-4 4s1.79 4 4 4v-8zM94 0c0 2.21-1.79 4-4 4s-4-1.79-4-4h8zm0 180c0-2.21-1.79-4-4-4s-4 1.79-4 4h8z' fill='%23eb009c' fill-opacity='1' fill-rule='evenodd'/%3E%3C/svg%3E");
-  background-repeat: repeat;
-}
+  background-repeat: repeat; }
 
 .PieDePaginaDiv {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   padding-bottom: 5px;
   padding-left: 30px;
   padding-top: 10px;
@@ -348,118 +268,78 @@ body {
   background-color: #888470;
   color: antiquewhite;
   width: 100%;
-  height: 100%;
-}
+  height: 100%; }
 
 .CopyDiv {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
+  align-items: center; }
 
 .UbiDiv {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   display: inline-block;
-  margin-top: 10px;
-}
+  margin-top: 10px; }
 
 .Derechos {
-  padding-left: 20px;
-}
+  padding-left: 20px; }
 
 .Contacto {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
+  display: flex; }
 
 .MainIndex {
   background-image: url(../imagenes/fondo.jpg);
-  margin: 0;
-}
+  margin: 0; }
 
 .bigicon {
   font-size: 35px;
-  color: #eb009c;
-}
+  color: #eb009c; }
 
 .FormularioContacto {
-  display: none;
-}
+  display: none; }
 
 .Datos {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   bottom: 10px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-bottom: 20px;
-}
+  align-items: center;
+  margin-bottom: 20px; }
 
 #sumbit1 {
-  display: none;
-}
+  display: none; }
 
 .carousel-control-prev {
-  right: 250px;
-}
+  right: 250px; }
 
 .carousel-control-prev {
-  right: 250px;
-}
+  right: 250px; }
 
 .SobreMi {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
+  align-items: center; }
 
 .Empresa {
   margin-top: 30px;
-  margin-bottom: 40px;
-}
+  margin-bottom: 40px; }
 
 .ItemColeccion {
-  margin: 10px;
-}
+  margin: 10px; }
 
 .bi-search-heart-fill {
-  display: none;
-}
+  display: none; }
 
 .form-control2 {
-  width: 150px;
-}
+  width: 150px; }
 
 .Drop2 {
-  display: none;
-}
+  display: none; }
 
 @media (max-width: 992px) {
   .NavBar {
-    display: none;
-  }
+    display: none; }
   #check {
-    display: none;
-  }
+    display: none; }
   .MenuResponsive {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-  }
+    display: inline-flex; }
   .fa-solid {
-    font-size: 40px;
-  }
+    font-size: 40px; }
   .TextoMarca {
     font-size: 30px;
     color: #eb009c;
@@ -469,30 +349,23 @@ body {
     text-align: center;
     padding: 0px 40px;
     position: relative;
-    right: 0px;
-  }
+    right: 0px; }
   .fa-magnifying-glass {
-    display: none;
-  }
+    display: none; }
   .ImgPrincipal {
     height: 400px;
     padding-top: 20px;
     padding-left: 10px;
-    padding-right: 10px;
-  }
+    padding-right: 10px; }
   .ImgAsideC {
-    display: none;
-  }
+    display: none; }
   .TituloTemporada__Cuadro {
     margin-top: 30px;
-    width: 300px;
-  }
+    width: 300px; }
   .TituloTemporada {
     color: #ffffff;
     background-color: #000000;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 56 28' width='56' height='28'%3E%3Cpath fill='%23f200fc' fill-opacity='0.82' d='M56 26v2h-7.75c2.3-1.27 4.94-2 7.75-2zm-26 2a2 2 0 1 0-4 0h-4.09A25.98 25.98 0 0 0 0 16v-2c.67 0 1.34.02 2 .07V14a2 2 0 0 0-2-2v-2a4 4 0 0 1 3.98 3.6 28.09 28.09 0 0 1 2.8-3.86A8 8 0 0 0 0 6V4a9.99 9.99 0 0 1 8.17 4.23c.94-.95 1.96-1.83 3.03-2.63A13.98 13.98 0 0 0 0 0h7.75c2 1.1 3.73 2.63 5.1 4.45 1.12-.72 2.3-1.37 3.53-1.93A20.1 20.1 0 0 0 14.28 0h2.7c.45.56.88 1.14 1.29 1.74 1.3-.48 2.63-.87 4-1.15-.11-.2-.23-.4-.36-.59H26v.07a28.4 28.4 0 0 1 4 0V0h4.09l-.37.59c1.38.28 2.72.67 4.01 1.15.4-.6.84-1.18 1.3-1.74h2.69a20.1 20.1 0 0 0-2.1 2.52c1.23.56 2.41 1.2 3.54 1.93A16.08 16.08 0 0 1 48.25 0H56c-4.58 0-8.65 2.2-11.2 5.6 1.07.8 2.09 1.68 3.03 2.63A9.99 9.99 0 0 1 56 4v2a8 8 0 0 0-6.77 3.74c1.03 1.2 1.97 2.5 2.79 3.86A4 4 0 0 1 56 10v2a2 2 0 0 0-2 2.07 28.4 28.4 0 0 1 2-.07v2c-9.2 0-17.3 4.78-21.91 12H30zM7.75 28H0v-2c2.81 0 5.46.73 7.75 2zM56 20v2c-5.6 0-10.65 2.3-14.28 6h-2.7c4.04-4.89 10.15-8 16.98-8zm-39.03 8h-2.69C10.65 24.3 5.6 22 0 22v-2c6.83 0 12.94 3.11 16.97 8zm15.01-.4a28.09 28.09 0 0 1 2.8-3.86 8 8 0 0 0-13.55 0c1.03 1.2 1.97 2.5 2.79 3.86a4 4 0 0 1 7.96 0zm14.29-11.86c1.3-.48 2.63-.87 4-1.15a25.99 25.99 0 0 0-44.55 0c1.38.28 2.72.67 4.01 1.15a21.98 21.98 0 0 1 36.54 0zm-5.43 2.71c1.13-.72 2.3-1.37 3.54-1.93a19.98 19.98 0 0 0-32.76 0c1.23.56 2.41 1.2 3.54 1.93a15.98 15.98 0 0 1 25.68 0zm-4.67 3.78c.94-.95 1.96-1.83 3.03-2.63a13.98 13.98 0 0 0-22.4 0c1.07.8 2.09 1.68 3.03 2.63a9.99 9.99 0 0 1 16.34 0z'%3E%3C/path%3E%3C/svg%3E");
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     position: relative;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -501,14 +374,11 @@ body {
     font-weight: bold;
     margin-left: 40px;
     padding-left: 5px;
-    border: 3px outset #000000;
-  }
+    border: 3px outset #000000; }
   .carousel-control-prev {
-    display: none;
-  }
+    display: none; }
   .carousel-control-next {
-    display: none;
-  }
+    display: none; }
   .TituloSobreMi {
     font-size: 40px;
     color: #000000;
@@ -519,9 +389,7 @@ body {
     padding: 10px 0;
     position: relative;
     top: 15px;
-    right: 15px;
-  }
-}
+    right: 15px; } }
 
 @media (max-width: 600px) {
   .RopaDeTemporadaFotos {
@@ -529,24 +397,19 @@ body {
     width: 45%;
     padding-left: 20px;
     padding-top: 10px;
-    padding-bottom: 10px;
-  }
+    padding-bottom: 10px; }
   .ImgPrincipal {
     height: 350px;
     width: 90%;
-    padding-top: 20px;
-  }
+    padding-top: 20px; }
   .Copy {
     width: 40px;
-    height: 40px;
-  }
+    height: 40px; }
   .Derechos {
-    font-size: 8px;
-  }
+    font-size: 8px; }
   .TextoUbi {
     width: 40px;
-    height: 40px;
-  }
+    height: 40px; }
   .TextoContacto {
     font-size: 25px;
     color: #eb009c;
@@ -555,8 +418,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     padding: 10px 0;
-    position: relative;
-  }
+    position: relative; }
   .TituloSobreMi {
     font-size: 20px;
     color: #000000;
@@ -567,42 +429,28 @@ body {
     padding: 10px 0;
     position: relative;
     top: 15px;
-    right: 15px;
-  }
+    right: 15px; }
   .TextoSobreMi {
-    padding-left: 30px;
-  }
+    padding-left: 30px; }
   .EmbajadoraImg {
     width: 400px;
-    height: 400px;
-  }
-}
+    height: 400px; } }
 
 @media (max-width: 576px) {
   .MenuColeccion {
-    display: none;
-  }
+    display: none; }
   .ImagenesColeccion {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
+    justify-content: center;
+    align-items: center; }
   .ImgColeccion {
     width: 95%;
-    height: 150px;
-  }
+    height: 150px; }
   .bi-search-heart-fill {
     display: block;
     width: 40px;
-    height: 40px;
-  }
+    height: 40px; }
   .Buscar {
-    display: none;
-  }
-}
+    display: none; } }
 
 @media (max-width: 480px) {
   .TextoMarca {
@@ -614,13 +462,11 @@ body {
     text-align: center;
     padding: 0px 30px;
     position: relative;
-    right: 0px;
-  }
+    right: 0px; }
   .ImgPrincipal {
     height: 300px;
     width: 100%;
-    padding-top: 20px;
-  }
+    padding-top: 20px; }
   .TextoContacto {
     font-size: 20px;
     color: #eb009c;
@@ -629,8 +475,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     padding: 10px 0;
-    position: relative;
-  }
+    position: relative; }
   .TituloSobreMi {
     font-size: 20px;
     color: #000000;
@@ -640,24 +485,13 @@ body {
     text-align: center;
     position: relative;
     top: 15px;
-    right: 15px;
-  }
+    right: 15px; }
   .MainContacto {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
     display: inline-flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap; }
   .TextAreaContacto {
     position: relative;
     top: 6px;
@@ -666,80 +500,40 @@ body {
     margin-top: 10px;
     border-radius: 5px;
     position: relative;
-    left: 50px;
-  }
+    left: 50px; }
   .FondoContacto {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    padding: 10px;
-  }
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 10px; }
   .FormularioContacto {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     padding: 10px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
+    justify-content: center; }
   .Separador1 {
-    margin: 10px;
-  }
+    margin: 10px; }
   .Separador2 {
     margin: 10px;
     position: relative;
-    left: 13px;
-  }
+    left: 13px; }
   .Separador3 {
     margin: 10px;
     position: relative;
     left: 25px;
-    bottom: 10px;
-  }
+    bottom: 10px; }
   .BtnContacto {
     bottom: 15px;
-    left: 100px;
-  }
+    left: 100px; }
   .Email {
     position: relative;
-    right: 13px;
-  }
+    right: 13px; }
   .Apellido {
     position: relative;
-    right: 10px;
-  }
-}
-
-@-webkit-keyframes Movi {
-  0% {
-    -webkit-transform: translate(0px, 0px);
-            transform: translate(0px, 0px);
-  }
-  100% {
-    -webkit-transform: translate(0px, 15px);
-            transform: translate(0px, 15px);
-  }
-}
+    right: 10px; } }
 
 @keyframes Movi {
   0% {
-    -webkit-transform: translate(0px, 0px);
-            transform: translate(0px, 0px);
-  }
+    transform: translate(0px, 0px); }
   100% {
-    -webkit-transform: translate(0px, 15px);
-            transform: translate(0px, 15px);
-  }
-}
-/*# sourceMappingURL=styles.css.map */
+    transform: translate(0px, 15px); } }
