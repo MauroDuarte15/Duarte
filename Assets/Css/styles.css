@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Monoton&family=Roboto:ital,wght@0,900;1,400&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -253,6 +254,13 @@
   left: 40px;
 }
 
+.Producto {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 3px;
+}
+
 @keyframes neon1 {
   from {
     text-shadow: 0 0 10px  #FF1177, 0 0 20px  #FF1177, 0 0 30px  #FF1177, 0 0 40px  #FF1177, 0 0 70px  #FF1177, 0 0 80px  #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;
@@ -409,15 +417,13 @@ body {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.ContendorFinal {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .PreguntasFrecuentes {
@@ -498,6 +504,10 @@ body {
   display: none;
 }
 
+.fa-copyright {
+  display: none;
+}
+
 @media (max-width: 992px) {
   .NavBar {
     display: none;
@@ -574,11 +584,41 @@ body {
     top: 15px;
     right: 15px;
   }
+  .Producto {
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+  .Derechos {
+    font-size: 15px;
+  }
+  .Copy {
+    width: 100px;
+    height: 100px;
+  }
 }
 
 @media (max-width: 800px) {
   .css-button-fully-rounded--rose {
     width: 100px;
+  }
+  .Producto {
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
+}
+
+@media (max-width: 768px) {
+  .ContendorFinal {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
@@ -654,6 +694,18 @@ body {
   .css-button-fully-rounded--rose {
     width: 85px;
   }
+  .ContendorFinal {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 @media (max-width: 576px) {
@@ -675,6 +727,21 @@ body {
   .ImgIndex {
     width: 40%;
     height: auto;
+  }
+  .Copy {
+    display: none;
+  }
+  .Derechos {
+    display: none;
+  }
+  .fa-copyright {
+    vertical-align: middle;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
   }
 }
 
