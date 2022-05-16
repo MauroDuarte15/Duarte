@@ -13,12 +13,7 @@
 
 @import "Variables";
 
-@font-face {
-    font-family: 'Monoton';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Monoton'), local('Monoton-Regular'), url(http://themes.googleusercontent.com/static/fonts/monoton/v4/AKI-lyzyNHXByGHeOcds_w.woff) format('woff');
-}
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 
 @mixin PropiedadesPrincipales ($bg-color, $colorLetra, $ancho, $alto) {
     background-color: $bg-color;

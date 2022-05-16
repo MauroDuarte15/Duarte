@@ -1,10 +1,4 @@
 @import "Variables";
-@font-face {
-    font-family: 'Monoton';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Monoton'), local('Monoton-Regular'), url(http://themes.googleusercontent.com/static/fonts/monoton/v4/AKI-lyzyNHXByGHeOcds_w.woff) format('woff');
-  }
 
 .TextUbiMenu {
     text-shadow: none;
@@ -49,7 +43,7 @@
     -moz-transition: all 0.5s;
     transition: all 0.5s;
     color:#FF1177;
-    font-family:Monoton;
+    font-family: 'Monoton', cursive;
 }
 .TextoTemporadaLink:hover {
     color:#FF1177;
