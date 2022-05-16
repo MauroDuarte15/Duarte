@@ -896,6 +896,10 @@ body {
     height: 280px;
     width: 40%;
   }
+  .ImgIndex {
+    height: 250px;
+    width: 40%;
+  }
 }
 
 @-webkit-keyframes Movi {
