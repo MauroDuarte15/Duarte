@@ -419,7 +419,7 @@ body {
     }
 }
 
-@media (max-width:576px) {
+@media (max-width:575px) {
     .MenuColeccion {
         display: none;
     }
@@ -432,11 +432,6 @@ body {
     .ImgColeccion {
         width: 95%;
         height: 150px;
-    }
-
-    .ImgIndex{
-        width: 40%;
-        height: auto;
     }
     .CopyDiv {
         display: none;
@@ -452,6 +447,9 @@ body {
         font-size: 12px;
         font-weight: bold;
         letter-spacing: 2px;
+    }
+    .ImgRemeras{
+        height: 310px;
     }
 }
 
@@ -569,6 +567,13 @@ body {
 
     .ContendorFinal {
         display: inline-block;
+    }
+    .FotoDeRemeras{
+        height: 180px;
+    }
+    .ImgRemeras {
+        height: 280px;
+        width: 40%;
     }
 
 }
