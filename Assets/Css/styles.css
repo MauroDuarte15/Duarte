@@ -504,7 +504,7 @@ body {
   display: none;
 }
 
-.fa-copyright {
+.CopyDivResponsive {
   display: none;
 }
 
@@ -728,20 +728,20 @@ body {
     width: 40%;
     height: auto;
   }
-  .Copy {
+  .CopyDiv {
     display: none;
   }
   .Derechos {
     display: none;
+  }
+  .CopyDivResponsive {
+    display: block;
   }
   .fa-copyright {
     vertical-align: middle;
     font-size: 12px;
     font-weight: bold;
     letter-spacing: 2px;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
   }
 }
 
