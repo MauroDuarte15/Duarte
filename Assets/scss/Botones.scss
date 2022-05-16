@@ -33,3 +33,20 @@
 .bi-search-heart-fill{
     color: $colorTitulos;
 }
+.css-button-fully-rounded--rose {
+    width: 150px;
+    height: 38px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid #ff0a78;
+    background: #ff0a78;
+  }
+  .css-button-fully-rounded--rose:hover {
+    background: #fff;
+    color: #ff0a78
+}

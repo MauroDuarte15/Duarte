@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Monoton';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Monoton"), local("Monoton-Regular"), url(http://themes.googleusercontent.com/static/fonts/monoton/v4/AKI-lyzyNHXByGHeOcds_w.woff) format("woff");
+}
+
 .TextUbiMenu {
   text-shadow: none;
   text-decoration: none;
@@ -34,6 +41,27 @@
   padding: 10px 0;
   position: relative;
   right: 60px;
+}
+
+.TextoTemporada {
+  text-align: center;
+  font-size: 45px;
+  margin: 20px 0 20px 0;
+  letter-spacing: 4px;
+}
+
+.TextoTemporadaLink {
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  color: #FF1177;
+  font-family: Monoton;
+}
+
+.TextoTemporadaLink:hover {
+  color: #FF1177;
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;
 }
 
 .TituloTemporada {
@@ -99,5 +127,23 @@
   color: #eb009c;
   position: relative;
   left: 40px;
+}
+
+@keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px  #FF1177, 0 0 20px  #FF1177, 0 0 30px  #FF1177, 0 0 40px  #FF1177, 0 0 70px  #FF1177, 0 0 80px  #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;
+  }
+  to {
+    text-shadow: 0 0 5px #FF1177, 0 0 10px #FF1177, 0 0 15px #FF1177, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
+  }
+}
+
+@-webkit-keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #FF1177, 0 0 20px  #FF1177, 0 0 30px  #FF1177, 0 0 40px  #FF1177, 0 0 70px  #FF1177, 0 0 80px  #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;
+  }
+  to {
+    text-shadow: 0 0 5px #FF1177, 0 0 10px #FF1177, 0 0 15px #FF1177, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
+  }
 }
 /*# sourceMappingURL=Textos.css.map */
