@@ -303,16 +303,10 @@
 
 body {
   overflow-x: hidden;
-  max-width: 1400px;
 }
 
 .Body {
   overflow-x: hidden;
-  max-width: 1400px;
-}
-
-.SobreMi {
-  max-width: 1400px;
 }
 
 .btn-wsp {
