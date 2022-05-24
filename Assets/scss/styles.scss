@@ -71,12 +71,8 @@ body {
     text-shadow: 0 0 2px red;
 }
 
-.carousel {
-    padding-left: 30px;
-}
-
-.carousel-control-next {
-    right: 45px;
+.carrousel {
+    margin-left: 20px;
 }
 
 .nav-link {
@@ -225,7 +221,7 @@ body {
     display: none;
 }
 
-@media (max-width:992px) {
+@media (max-width:991px) {
     .NavBar {
         display: none;
     }
@@ -274,13 +270,8 @@ body {
         width: 300px;
     }
 
-    .carousel-control-prev {
-        display: none;
-    }
-
-    .carousel-control-next {
-        display: none;
-
+    .carrousel{
+        margin-right: 20px;
     }
 
     .Producto{
@@ -294,6 +285,9 @@ body {
         width: 100px;
         height: 100px;
     }
+    .TituloIndex {
+        margin-top: 25px;
+    }
 }
 
 @media (max-width:800px) {
@@ -305,11 +299,24 @@ body {
         letter-spacing: 1px;
     }
 }
-@media (max-width:768px){
+@media (max-width:767px){
     .ContendorFinal{
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+    .TituloIndex{
+        font-size: 32px;
+        margin-bottom: 0;
+    }
+    .InfoContacto {
+        position: relative;
+        left: 80px;
+    }
+}
+@media (max-width:662px) {
+    .TextoTemporada {
+        font-size: 28px;
     }
 }
 @media (max-width:612px) {
@@ -418,6 +425,9 @@ body {
     .ImgRemeras{
         height: 310px;
     }
+    .P-Empresa {
+        padding-left: 40px; 
+    }
 }
 
 @media (max-width:480px) {
@@ -507,7 +517,6 @@ body {
     .BtnContacto {
         bottom: 15px;
         left: 100px;
-
     }
 
     .Email {
@@ -536,6 +545,30 @@ body {
     .ImgIndex{
         height: 250px;
         width: 40%;
+    }
+    .carousel-control-prev{
+        margin-left: 25px;
+    }
+    .carousel-control-next {
+        margin-right: 25px;
+    }
+    .TituloIndex {
+        font-size: 20px;
+        margin-top: 15px;
+        margin-bottom: 0px;
+    }
+    .Carrousel {
+        margin: 0;
+        padding-bottom: 0px;
+    }
+    .carousel {
+        margin: 0px;
+    }
+    .InfoContacto {
+        position: inherit;
+    }
+    .Embajadora {
+        left: 100px;
     }
 }
 

@@ -79,13 +79,13 @@
 }
 
 .ImgAside1 {
-  padding-left: 50px;
-  padding-top: 50px;
+  margin-top: 100px;
+  margin-left: 20px;
 }
 
 .ImgAside2 {
-  padding-left: 50px;
-  padding-top: 50px;
+  margin-top: 80px;
+  margin-left: 20px;
 }
 
 .ImgAside3 {
@@ -95,8 +95,8 @@
           animation-duration: 1s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
-  padding-left: 50px;
-  padding-top: 50px;
+  margin-top: 80px;
+  margin-left: 20px;
 }
 
 .EmbajadoraImg {
@@ -251,16 +251,13 @@
   font-style: italic;
 }
 
-.TituloSobreMi {
+.TituloIndex {
   font-size: 45px;
   color: #000000;
   font-weight: bold;
   font-style: oblique;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
-  padding: 10px 0;
-  position: relative;
-  right: 80px;
 }
 
 .P-Empresa, .Embajadora {
@@ -352,12 +349,8 @@ body {
   text-shadow: 0 0 2px red;
 }
 
-.carousel {
-  padding-left: 30px;
-}
-
-.carousel-control-next {
-  right: 45px;
+.carrousel {
+  margin-left: 20px;
 }
 
 .nav-link {
@@ -538,7 +531,7 @@ body {
   display: none;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .NavBar {
     display: none;
   }
@@ -580,11 +573,8 @@ body {
     margin-top: 30px;
     width: 300px;
   }
-  .carousel-control-prev {
-    display: none;
-  }
-  .carousel-control-next {
-    display: none;
+  .carrousel {
+    margin-right: 20px;
   }
   .Producto {
     font-size: 12px;
@@ -596,6 +586,9 @@ body {
   .Copy {
     width: 100px;
     height: 100px;
+  }
+  .TituloIndex {
+    margin-top: 25px;
   }
 }
 
@@ -609,7 +602,7 @@ body {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .ContendorFinal {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -621,6 +614,20 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .TituloIndex {
+    font-size: 32px;
+    margin-bottom: 0;
+  }
+  .InfoContacto {
+    position: relative;
+    left: 80px;
+  }
+}
+
+@media (max-width: 662px) {
+  .TextoTemporada {
+    font-size: 28px;
   }
 }
 
@@ -736,6 +743,9 @@ body {
   }
   .ImgRemeras {
     height: 310px;
+  }
+  .P-Empresa, .Embajadora {
+    padding-left: 40px;
   }
 }
 
@@ -862,6 +872,41 @@ body {
   .ImgIndex {
     height: 250px;
     width: 40%;
+  }
+  .carousel-control-prev {
+    margin-left: 25px;
+  }
+  .carousel-control-next {
+    margin-right: 25px;
+  }
+  .TituloIndex {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+  }
+  .Carrousel {
+    margin: 0;
+    padding-bottom: 0px;
+  }
+  .carousel {
+    margin: 0px;
+  }
+  .InfoContacto {
+    position: inherit;
+  }
+  .Embajadora {
+    left: 100px;
+  }
+  .TextUbiMenu {
+    text-align: end;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    -ms-grid-column-align: end;
+        justify-self: end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
   }
 }
 

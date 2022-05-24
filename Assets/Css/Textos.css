@@ -97,16 +97,13 @@
   font-style: italic;
 }
 
-.TituloSobreMi {
+.TituloIndex {
   font-size: 45px;
   color: #000000;
   font-weight: bold;
   font-style: oblique;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
-  padding: 10px 0;
-  position: relative;
-  right: 80px;
 }
 
 .P-Empresa, .Embajadora {

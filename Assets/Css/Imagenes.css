@@ -8,13 +8,13 @@
 }
 
 .ImgAside1 {
-  padding-left: 50px;
-  padding-top: 50px;
+  margin-top: 100px;
+  margin-left: 20px;
 }
 
 .ImgAside2 {
-  padding-left: 50px;
-  padding-top: 50px;
+  margin-top: 80px;
+  margin-left: 20px;
 }
 
 .ImgAside3 {
@@ -24,8 +24,8 @@
           animation-duration: 1s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
-  padding-left: 50px;
-  padding-top: 50px;
+  margin-top: 80px;
+  margin-left: 20px;
 }
 
 .EmbajadoraImg {
