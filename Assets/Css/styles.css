@@ -543,6 +543,14 @@ body {
     display: -ms-inline-flexbox;
     display: inline-flex;
   }
+  .Btn_MenuHorizontal {
+    position: relative;
+    bottom: 8px;
+  }
+  .Btn_MenuVertical {
+    position: relative;
+    left: 15px;
+  }
   .fa-solid {
     font-size: 40px;
   }
@@ -896,17 +904,6 @@ body {
   }
   .Embajadora {
     left: 100px;
-  }
-  .TextUbiMenu {
-    text-align: end;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
-    -ms-grid-column-align: end;
-        justify-self: end;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
   }
 }
 
