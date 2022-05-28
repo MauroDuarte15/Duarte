@@ -136,8 +136,8 @@
           box-shadow: 10px 5px 5px black;
   margin: 15px 15px 40px 15px;
   padding: 0;
-  height: 305px;
-  width: 35%;
+  height: 320px;
+  width: 40%;
 }
 
 .RopaDeTemporadaFotos {
@@ -349,6 +349,8 @@ body {
   padding-left: 10px;
   font-size: 20px;
   text-shadow: 0 0 2px red;
+  position: relative;
+  right: 6px;
 }
 
 .carrousel {
@@ -875,6 +877,7 @@ body {
   .ImgRemeras {
     height: 280px;
     width: 40%;
+    margin: 10px;
   }
   .RopaDeTemporadaFotos {
     height: 150px;
@@ -906,6 +909,12 @@ body {
   }
   .Embajadora {
     left: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Producto {
+    font-size: 9px;
   }
 }
 
