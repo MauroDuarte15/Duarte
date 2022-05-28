@@ -100,8 +100,8 @@
 }
 
 .EmbajadoraImg {
-  width: 350px;
-  height: 250px;
+  width: 450px;
+  height: 300px;
 }
 
 .ImgColeccion {
@@ -688,8 +688,8 @@ body {
     font-size: 25px;
   }
   .EmbajadoraImg {
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 300px;
   }
   .PreguntasFrecuentesItem {
     font-size: 12px;
@@ -912,6 +912,8 @@ body {
   }
   .InfoContacto {
     position: inherit;
+    margin: 0px;
+    padding: 0px;
   }
   .Embajadora {
     left: 100px;
